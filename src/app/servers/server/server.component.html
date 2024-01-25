@@ -1,0 +1,5 @@
+<h5 *ngIf="server">{{ server.name }}</h5>
+<p *ngIf="server">Server status is {{ server.status }}</p>
+<!-- <h2>{{ server ? server.name : ''}}</h2> -->
+
+<button class="btn btn-primary" (click)="onEdit()">Edit Server</button>
